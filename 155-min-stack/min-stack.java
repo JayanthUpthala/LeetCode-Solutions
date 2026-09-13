@@ -30,17 +30,17 @@ class MinStack {
     }
     
     public int top() {
-        if(!mainst.isEmpty()){
-            return mainst.peek();
-        }
-        return 1;
+        // if(!mainst.isEmpty()){
+        return mainst.peek();
+        // }
+        // return 1;
     }
     
     public int getMin() {
-        if(!minst.isEmpty()){
-            return minst.peek();
-        }
-        return 1;
+        // if(!minst.isEmpty()){
+        return minst.peek();
+        // }
+        // return 1;
     }
 }
 
