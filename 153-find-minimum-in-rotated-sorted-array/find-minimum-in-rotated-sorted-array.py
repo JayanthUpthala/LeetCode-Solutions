@@ -10,5 +10,5 @@ class Solution:
                 low = mid
             else:
                 high = mid
-        print(mid)
+        # print(mid)
         return nums[high+1]
